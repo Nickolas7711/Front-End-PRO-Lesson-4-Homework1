@@ -17,7 +17,7 @@ while (initialNumberSecond <= 20) {
     resultSecondConditions += (initialNumberSecond * initialNumberSecond) + ', ';
     initialNumberSecond++;
 }
-document.write(`${resultSecondConditions.slice(0, -2)} <br>`);
+document.write(`${resultSecondConditions.slice(0, -2)}<br>`);
 
 document.write('<h3><b>Вивести таблицю множення на 7.</b></h3>');
 factor = 1;
@@ -25,7 +25,7 @@ resultMultiply = '';
 
 while (factor <= 10) {
     resultMultiply = factor * 7;
-    document.write(`${factor} x 7 = ${resultMultiply} <br>`);
+    document.write(`${factor} x 7 = ${resultMultiply}<br>`);
     factor++;
 }
 
@@ -38,13 +38,13 @@ while (value <= 15) {
     value++;
     
 }
-document.write(`${valueSum} <br>`);
+document.write(`${valueSum}<br>`);
 
 document.write('<h3><b>Знайти добуток усіх цілих чисел від 15 до 35.</b></h3>');
 valueMultiplier = 15;
 multiplierProduct = 1;
 
-while (valueMultiplier <=35) {
+while (valueMultiplier <= 35) {
     multiplierProduct *= valueMultiplier;
     valueMultiplier++;
 }
@@ -59,7 +59,7 @@ while (variableNumber <= 500) {
     variableNumber++;
 }
 resultArithmeticMean = arithmeticMean / 500;
-document.write(`${resultArithmeticMean} <br>`);
+document.write(`${resultArithmeticMean}<br>`);
 
 document.write('<h3><b>Вивести суму лише парних чисел в діапазоні від 30 до 80.</b></h3>');
 meaningEvenNumber = 30;
@@ -70,7 +70,7 @@ do {
         resultEvenNumber += meaningEvenNumber;
     }
     meaningEvenNumber++;
-}   while (meaningEvenNumber <= 80);
+} while (meaningEvenNumber <= 80);
 document.write(`${resultEvenNumber} <br>`);
 
 document.write('<h3><b>Вивести всі числа в діапазоні від 100 до 200 кратні 3.</b></h3>');
@@ -97,14 +97,14 @@ do {
     if (requestNaturalNumber % divisorInitialValue === 0) {
         resultDivisorValue += divisorInitialValue + ' ';
     }
-    if ( requestNaturalNumber % divisorInitialValue ===0 && divisorInitialValue % 2 === 0) {
+    if ( requestNaturalNumber % divisorInitialValue === 0 && divisorInitialValue % 2 === 0) {
         numberEvenDivisors++;
         sumNumberEvenDivisors += divisorInitialValue;
     }
     divisorInitialValue++;
 } while (divisorInitialValue <= requestNaturalNumber);
 
-document.write(`Ви ввели номер - ${requestNaturalNumber} його дільники - ${resultDivisorValue} <br>`);
+document.write(`Ви ввели номер - ${requestNaturalNumber} його дільники - ${resultDivisorValue}<br>`);
 document.write('<h3><b>Визначити кількість його парних дільників.</b></h3>');
 document.write(`Кількість його парних дільників - ${numberEvenDivisors} <br>`);
 document.write('<h3><b>Знайти суму його парних дільників.</b></h3>');
